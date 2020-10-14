@@ -11,6 +11,7 @@
   ### Solusi  
   Kami menggunakan 
   ### Kendala  
+  Tidak ada.
 </details>  
 
 <details>
@@ -27,7 +28,7 @@
   gambar yang telah disimpan sebagai berikut:  
   ![](image/Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg)
   ### Kendala  
-  Tidak ada
+  Tidak ada.
 </details>
 
 <details>
