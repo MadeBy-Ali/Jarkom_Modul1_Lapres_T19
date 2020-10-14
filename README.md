@@ -35,7 +35,7 @@
   <summary> Soal No.3 </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
+  Soal meminta kami untuk mencari username dan password yang telah digunakan untuk login sebelumnya pada website "ppid.dpr.go.id"!
   ### Solusi  
   Kami menggunakan 
   ### Kendala  
@@ -45,17 +45,18 @@
   <summary> Soal No.4 </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
+  Soal meminta kami untuk menemukan paket dari web-web yang menggunakan basic authentication method.
   ### Solusi  
-  Kami menggunakan 
-  ### Kendala  
+  Untuk mendapat
+  ### Kendala
+  
 </details>  
 
 <details>
   <summary> Soal No.5 </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
+  Soal meminta kami untuk mengkuti perintah yang ada di ```aku.pengen.pw``` dengan Username dan password yang didapatkan dari file ```.pcapng```
   ### Solusi  
   Kami menggunakan 
   ### Kendala  
@@ -65,7 +66,10 @@
   <summary> Soal No.6 </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
+  Soal meminta kami untuk menyimpan dan membuka file pdf dengan nama 
+  ```"OpenThis.pdf"``` yang di archive dalam ```Answer.zip``` dengan 
+  password archive yang sebelumnya harus didapatkan terlebih dahulu 
+  pada ```zipkey.txt```
   ### Solusi  
   Kami menggunakan 
   ### Kendala  
@@ -75,7 +79,9 @@
   <summary> Soal No.7 </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
+  Soal meminta kami untuk mencari dan menyimpan salah satu dari lima 
+  ratus file zip yang berisi sebuah file pdf dengan nama 
+  ```Yes.pdf```
   ### Solusi  
   Kami menggunakan 
   ### Kendala  
@@ -85,7 +91,8 @@
   <summary> Soal No.8 </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
+  Soal meminta kami untuk mencari objek apa saja yang didownload 
+  (RETR) dari koneksi FTP dengan Microsoft FTP Service  
   ### Solusi  
   Kami menggunakan 
   ### Kendala  
@@ -95,7 +102,8 @@
   <summary> Soal No.9 </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
+  Soal meminta kami untuk mencari username dan password ketika login 
+  FTP pada localhost
   ### Solusi  
   Kami menggunakan 
   ### Kendala  
@@ -105,7 +113,8 @@
   <summary> Soal No.10 </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
+  Soal meminta kami untuk mencari dan mendownload file .pdf di 
+  wireshark dengan clue ```25 50 44 46```
   ### Solusi  
   Kami menggunakan 
   ### Kendala  
@@ -115,7 +124,8 @@
   <summary> Soal No.1 B </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
+  Soal meminta kami untuk menampilkan sehingga wireshark hanya 
+  mengambil paket yang mengandung port 21
   ### Solusi  
   Kami menggunakan 
   ### Kendala  
@@ -125,7 +135,7 @@
   <summary> Soal No.2 B </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
+  Soal meminta kami untuk menampilkan sehingga wireshark hanya mengambil paket yang berasal dari port 80
   ### Solusi  
   Kami menggunakan 
   ### Kendala  
@@ -135,7 +145,7 @@
   <summary> Soal No.3 B </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
+  Soal meminta kami untuk menampilkan sehingga wireshark hanya menampilkan paket yang menuju port 443
   ### Solusi  
   Kami menggunakan 
   ### Kendala  
@@ -145,7 +155,7 @@
   <summary> Soal No.4 B </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
+  Soal meminta kami untuk menampilkan sehingga wireshark hanya mengambil paket yang berasal dari ip kalian.
   ### Solusi  
   Kami menggunakan 
   ### Kendala  
@@ -155,7 +165,7 @@
   <summary> Soal No.5 B </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
+  Soal meminta kami untuk menampilkan sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id
   ### Solusi  
   Kami menggunakan 
   ### Kendala  
