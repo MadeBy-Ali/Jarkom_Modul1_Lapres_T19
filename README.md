@@ -3,13 +3,14 @@
 **Muhammad Irsyad Ali**  
 **Made Krisnanda Utama**
 
-## Soal No.1
+<details>
+  <summary> ## Soal No.1 </summary>
 ### Penjelasan Soal  
 Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
 ### Solusi  
 Kami menggunakan 
 ### Kendala   
-
+</details>
 ## Soal No.2
 ### Penjelasan Soal   
 Soal meminta kami untuk menemukan dan menyimpan file dengan nama  "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"
