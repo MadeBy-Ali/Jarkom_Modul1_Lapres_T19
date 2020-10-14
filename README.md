@@ -17,7 +17,6 @@ Soal meminta kami untuk menemukan dan menyimpan file dengan nama  "Tim_Kunjungan
 Pertama kami melakukan pencarian terhadap file itu sendiri dengan menggunakan HTTP export object, kemudian menggunakan 
 ```"Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"``` sebagai filternya, disiini filter akan menampilkan semua file dengan protocol HTTP dengan nama seperti yang telah 
 disebutkan sebelumnya
-![](image/soal%202.png)  
 ![](image/soal%202(1).png)
 Setelah file sudah ditemukan kami melakukan export dan menyimpannya pada local storage, dengan cara men select file tersebut lalu save pada directory tertentu. Hasil dari 
 gambar yang telah disimpan sebagai berikut:  
