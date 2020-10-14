@@ -4,18 +4,18 @@
 **Made Krisnanda Utama**
 
 ### Soal No.1
-**Penjelasan Soal**  
+## Penjelasan Soal##  
 Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
-**Solusi**  
+## Solusi##  
 Kami menggunakan 
-**Kendala**  
+## Kendala##  
 
 ### Soal No.2
-**Penjelasan Soal**  
+## Penjelasan Soal ##  
 Soal meminta kami untuk menemukan dan menyimpan file dengan nama  "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"
-**Solusi**  
-Pertama kami melakukan pencarian terhadap file itu sendiri dengan menggunakan HTTP export object, kemudian menggunakan ``` "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"``` sebagai filternya. Setlah file sudah ditemukan kami melakukan export dan menyimpannya pada local storage
-**Kendala**  
+## Solusi##  
+Pertama kami melakukan pencarian terhadap file itu sendiri dengan menggunakan HTTP export object, kemudian menggunakan ``` "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"``` sebagai filternya. Setlah file sudah ditemukan kami melakukan export dan menyimpannya pada local storage  
+## Kendala##  
 Tidak ada
 
 ### Soal No.3
