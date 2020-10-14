@@ -34,7 +34,6 @@
 
 
 ### Soal No.1 B
-### Soal No.1 B
 ### Soal No.2 B
 ### Soal No.3 B
 ### Soal No.4 B 
