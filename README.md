@@ -16,7 +16,7 @@ Soal meminta kami untuk menemukan dan menyimpan file dengan nama  "Tim_Kunjungan
 ### Solusi 
 Pertama kami melakukan pencarian terhadap file itu sendiri dengan menggunakan HTTP export object, kemudian menggunakan 
 ```"Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"``` sebagai filternya. 
-![Alt Text](url)
+![](image/Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg)
 Setelah file sudah ditemukan kami melakukan export dan menyimpannya pada local storage  
 ![Alt Text](url)
 
