@@ -4,12 +4,13 @@
 **Made Krisnanda Utama**
 
 <details>
-  <summary> ## Soal No.1 </summary>
+  <summary> Soal No.1 </summary>
+  
   ### Penjelasan Soal  
   Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
   ### Solusi  
   Kami menggunakan 
-  ### Kendala   
+  ### Kendala  
 </details>  
 
 ## Soal No.2
