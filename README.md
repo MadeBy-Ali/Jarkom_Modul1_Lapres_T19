@@ -14,7 +14,12 @@ Kami menggunakan
 ### Penjelasan Soal   
 Soal meminta kami untuk menemukan dan menyimpan file dengan nama  "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"
 ### Solusi 
-Pertama kami melakukan pencarian terhadap file itu sendiri dengan menggunakan HTTP export object, kemudian menggunakan ``` "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"``` sebagai filternya. Setlah file sudah ditemukan kami melakukan export dan menyimpannya pada local storage  
+Pertama kami melakukan pencarian terhadap file itu sendiri dengan menggunakan HTTP export object, kemudian menggunakan 
+```"Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"``` sebagai filternya. 
+![Alt Text](url)
+Setelah file sudah ditemukan kami melakukan export dan menyimpannya pada local storage  
+![Alt Text](url)
+
 ### Kendala  
 Tidak ada
 
