@@ -1,7 +1,7 @@
 # Lapres Modul 1_T19
 
-*Muhammad Irsyad Ali*
-*Made Krisnanda Utama*
+**Muhammad Irsyad Ali**  
+**Made Krisnanda Utama**
 
 *Soal No.1*
 
