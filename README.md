@@ -198,8 +198,13 @@
   ### Penjelasan Soal  
   Soal meminta kami untuk menampilkan sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id
   ### Solusi  
-  Kami menggunakan 
+  Kami melakukan capture filter ke host monta.if.its.ac.id dengan capture filter ```host 103.94.190.11``` dimana 103.94.190.11 merupakan ip monta.if.its.ac.id yang didapat 
+  dengan melakukan ping pada cmd  
+  ![](image/redmi12.png)
+  Kemudian kami menggunakan display capture ```ip.dst == 103.94.190.11``` untuk menampilkan semua paket yang menuju ke ip monta.if.its.ac.id
+  ![](image/redmi13.png)
   ### Kendala  
+  Bingung apakah paket dengan tujuan monta.if.its.ac.id sama dengan paket tujuan if.its.ac.id karna ipnya yang sama
 </details>   
 
 
