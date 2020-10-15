@@ -138,6 +138,7 @@
   ![](image/redmi10.png)
   ### Kendala
   Tidak menemukan host yang mengandung port 21, sudah mencoba mencari apakah port 21 terblokir pada ip tertentu, namun tetap tidak bisa
+  ![](image/probs3.png)
 </details>  
 
 <details>
