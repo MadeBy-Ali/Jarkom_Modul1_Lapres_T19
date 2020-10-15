@@ -53,9 +53,11 @@
   ### Penjelasan Soal  
   Soal meminta kami untuk menemukan paket dari web-web yang menggunakan basic authentication method.
   ### Solusi  
-  Untuk mendapat
+  Untuk mendapat kan semua paket dari web yang menggunaan basic authentication method, kami menggunakan display filter ```http.authbasic``` yang akan menampilkan semua paket 
+  dengan basic authentication seperti yang dapat dilihat pada gambar berikut, kami mendapatkan 5 paket yang tercapture menggunakan basic authentication
+  ![](image/redmi3.png)  
   ### Kendala
-  
+  Tidak ada.  
 </details>  
 
 <details>
