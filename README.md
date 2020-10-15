@@ -134,11 +134,13 @@
   ### Penjelasan Soal  
   Soal meminta kami untuk menampilkan sehingga wireshark hanya mengambil paket yang mengandung port 21
   ### Solusi  
-  Kami menggunakan capture filter ```port 21``` untuk mengambil semua paket yang mengandung port 21
-  ![](image/redmi10.png)
+  Kami melakukan capture filter ke host if.its.ac.id dengan capture filter ```host 103.93.190.11``` dimana 103.93.190.11 merupakan ip if.its.ac.id yang didapat dengan melakukan 
+  ping pada cmd
+  ![](image/redmi.7)
+  Kemudian kami menggunakan port display capture ```tcp.port == 21``` untuk menampilkan semua paket yang mengandung port 21
+  ![](image/redmi11.png)
   ### Kendala
-  Tidak menemukan host yang mengandung port 21, sudah mencoba mencari apakah port 21 terblokir pada ip tertentu, namun tetap tidak bisa
-  ![](image/probs3.png)
+  Tidak ada.
 </details>  
 
 <details>
