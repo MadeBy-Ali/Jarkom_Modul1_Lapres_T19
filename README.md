@@ -165,7 +165,13 @@
   ### Penjelasan Soal  
   Soal meminta kami untuk menampilkan sehingga wireshark hanya mengambil paket yang berasal dari ip kalian.
   ### Solusi  
-  Kami menggunakan 
+  Kami melakukan capture ke host niagaholster lagi dengan expression ```host 104.18.114.100``` dimana 103.18.113.100 merupakan ip dari niaga hoster itu sendiri, yang didapatkan 
+  menggunakan ping dari cmd.
+  ![](image/redmi4.png)
+  Kemudian menggunakan display filter dengan expression ```ip.src == 192.168.43.233``` dimana ```ip.src``` berfungsi untuk mencari semua package yang berasal dari 
+  ip sendiri, pada case ini kami menenumukan 120 paket dalam refresh page pertama 
+  ![](image/redmi5.png)
+ 
   ### Kendala  
 </details>  
 
