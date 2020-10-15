@@ -132,11 +132,12 @@
   <summary> Soal No.1 B </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menampilkan sehingga wireshark hanya 
-  mengambil paket yang mengandung port 21
+  Soal meminta kami untuk menampilkan sehingga wireshark hanya mengambil paket yang mengandung port 21
   ### Solusi  
-  Kami menggunakan 
-  ### Kendala  
+  Kami menggunakan capture filter ```port 21``` untuk mengambil semua paket yang mengandung port 21
+  ![](image/redmi10.png)
+  ### Kendala
+  Tidak menemukan host yang mengandung port 21, sudah mencoba mencari apakah port 21 terblokir pada ip tertentu, namun tetap tidak bisa
 </details>  
 
 <details>
@@ -152,6 +153,7 @@
   80
   ![](image/redmi9.png)
   ### Kendala  
+  Tidak ada.  
 </details>  
 
 <details>
