@@ -136,7 +136,7 @@
   ### Solusi  
   Kami melakukan capture filter ke host if.its.ac.id dengan capture filter ```host 103.93.190.11``` dimana 103.93.190.11 merupakan ip if.its.ac.id yang didapat dengan melakukan 
   ping pada cmd
-  ![](image/redmi.7)
+  ![](image/redmi7.png)
   Kemudian kami menggunakan port display capture ```tcp.port == 21``` untuk menampilkan semua paket yang mengandung port 21
   ![](image/redmi11.png)
   ### Kendala
