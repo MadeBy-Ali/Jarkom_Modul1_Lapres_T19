@@ -145,7 +145,12 @@
   ### Penjelasan Soal  
   Soal meminta kami untuk menampilkan sehingga wireshark hanya mengambil paket yang berasal dari port 80
   ### Solusi  
-  Kami menggunakan 
+  Kami melakukan capture filter ke host if.its.ac.id dengan capture filter ```host 103.93.190.11``` dimana 103.93.190.11 merupakan ip if.its.ac.id yang didapat dengan melakukan 
+  ping pada cmd
+  ![](image/redmi7.png)
+  lalu setelah melakukan capture kepada ip tersebut, kami menggunakan display capture ```tcp.srcport == 80 ``` yang berfungsi untuk memfilter semua paket yang berasal dari port 
+  80
+  ![](image/redmi9.png)
   ### Kendala  
 </details>  
 
@@ -158,25 +163,26 @@
   Kami melakukan capture ke host niagaholster lagi dengan capture filter```host 104.18.114.100``` dimana 103.18.114.100 merupakan ip dari niaga hoster itu sendiri, yang 
   didapatkan menggunakan ping dari cmd.
   ![](image/redmi4.png)    
-  Kemudian menggunakan display capture ```tcp.port == 443``` dimana ```tcp.port``` akan menampilkan semua paket dengan port tertentu, pada case ini kami diminta untuk mencari 
-  semua paket dengan port 443  
-  ![](image/redmi6.png)
+  Kemudian menggunakan display capture ```tcp.dstport == 443``` dimana ```tcp.dstport``` akan menampilkan semua paket yang menuju port tertentu, pada case ini kami diminta 
+  untuk mencari semua paket dengan tujuan port 443  
+  ![](image/probs1.png)
   ### Kendala  
-  Tidak ada.  
+  terdapat paket yang menuju port 443 seperti yang dapat dilihat di gambar, namun setelah dilakukan display capture, paket tersebut tidak terfilter
+  ![](image/probs2.png)
 </details>  
 
 <details>
   <summary> Soal No.4 B </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menampilkan sehingga wireshark hanya mengambil paket yang berasal dari ip kalian.
+  Soal meminta kami untuk menampilkan sehingga wireshark hanya mengambil paket yang berasal dari ip sendiri.
   ### Solusi  
   Kami melakukan capture ke host niagaholster lagi dengan capture filter```host 104.18.114.100``` dimana 103.18.114.100 merupakan ip dari niaga hoster itu sendiri, yang 
   didapatkan menggunakan ping dari cmd.
   ![](image/redmi4.png)
   Kemudian menggunakan display filter dengan expression ```ip.src == 192.168.43.233``` dimana ```ip.src``` berfungsi untuk mencari semua package yang berasal dari 
   ip sendiri, pada case ini kami menenumukan 120 paket dalam refresh page pertama 
-  ![](image/redmi 5.png)
+  ![](image/redmi%205.png)
  
   ### Kendala  
 </details>  
