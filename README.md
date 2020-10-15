@@ -37,8 +37,14 @@
   ### Penjelasan Soal  
   Soal meminta kami untuk mencari username dan password yang telah digunakan untuk login sebelumnya pada website "ppid.dpr.go.id"!
   ### Solusi  
-  Kami menggunakan 
+  Kami menggunakan display filter ```http.request.method == POST``` disini semua packet yang berbebentuk POST akan di tampilkan, dimana untuk paket ini mendefinisika sesuatu 
+  yang diinputkan kepada web browser, lalu yang kamu temukan adalah satu paket dengan method post seperti yang dapat dilihat dibawah ini 
+  ![](image/foto%20redmi.png)
+  Kemudian pada paket tersebut memiliki HTML form yang di encoded, dimana di dalamnya memiliki form username dan form password yang merupakan informasi yang telah digunakan 
+  untuk melakukan login
+  ![](image/redmi2.png)    
   ### Kendala  
+  Tidak ada.  
 </details>  
 
 <details>
