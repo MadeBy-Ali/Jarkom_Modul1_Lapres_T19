@@ -85,21 +85,30 @@
   <summary> Soal No.6 </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk menyimpan dan membuka file pdf dengan nama 
-  ```"OpenThis.pdf"``` yang di archive dalam ```Answer.zip``` dengan 
-  password archive yang sebelumnya harus didapatkan terlebih dahulu 
-  pada ```zipkey.txt```
+  Soal meminta kami untuk menyimpan dan membuka file pdf dengan nama ```"OpenThis.pdf"``` yang di archive dalam ```Answer.zip``` dengan password archive yang sebelumnya harus 
+  didapatkan terlebih dahulu pada ```zipkey.txt```
   ### Solusi  
-  Kami menggunakan display filetr ```
+  Pertama kami menggunakan display filter ```ftp-data contains Answer.zip``` yang akan menampilkan beberapa paket yang mungkin berisi Answer.zip itu sendiri, selanjutnya kami 
+  memfollow tcp stream pada paket pertama
+  ![](image/modul6.png)
+  Sebelumnya kami mencoba beberapa stream untuk kemudian di download raw datanya, kemudian pada stream 12 kami menemukan ```Answer.zip``` dengan mendowload raw datanya
+  ![](image/modul8.png)
+  Setelah Answer.zip dibuka, terdapat ```OpenThis.pdf``` yang diminta pada soal, dan untuk memebuka passwordnya kami mencari ```zipkey.txt``` dengan filter 
+  ```ftp-data contains zipkey.text```
+  ![](image/modul9.png)
+  pada paket pertama kami memfollow tcp streamnya, dan pada stream ke 23 kami menemukan password yang bisa digunakan untuk membuka ```OpenThsi.pdf```
+  ![](image/modul10.png)
+  ![](image/modul11.png)
+  
   ### Kendala  
+  Tidak ada.
 </details>   
 
 <details>
   <summary> Soal No.7 </summary>
   
   ### Penjelasan Soal  
-  Soal meminta kami untuk mencari dan menyimpan salah satu dari lima 
-  ratus file zip yang berisi sebuah file pdf dengan nama 
+  Soal meminta kami untuk mencari dan menyimpan salah satu dari lima   ratus file zip yang berisi sebuah file pdf dengan nama 
   ```Yes.pdf```
   ### Solusi  
   Kami menggunakan 
