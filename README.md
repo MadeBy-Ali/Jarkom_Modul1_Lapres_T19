@@ -1,7 +1,7 @@
 # Lapres Modul 1_T19
 
-**Muhammad Irsyad Ali**  
-**Made Krisnanda Utama**
+**Muhammad Irsyad Ali(05311840000041)**  
+**Made Krisnanda Utama(05311840000033)**
 
 <details>
   <summary> Soal No.1 </summary>
