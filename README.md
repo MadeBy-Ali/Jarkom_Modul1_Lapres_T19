@@ -113,7 +113,12 @@
   Soal meminta kami untuk mencari dan menyimpan salah satu dari lima   ratus file zip yang berisi sebuah file pdf dengan nama 
   ```Yes.pdf```
   ### Solusi  
-  Kami menggunakan 
+  Kami menggunakan display filter ```ftp-data contains "Yes.pdf". disini terdapat 2 file yang tercapture
+  ![](image/modul21.png)
+  kemudian kami mendownload nya sebagai raw file dengan nama ```Yes.pdf```
+  ![](image/modul22.png)
+  kemudian file dapat terbuka dengan isi sebagai berikut
+  ![](image/modul24.png)
   ### Kendala  
 </details>    
 
