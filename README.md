@@ -9,7 +9,11 @@
   ### Penjelasan Soal  
   Soal meminta kami untuk menampilkan web server yang digunakan pada testing.mekanis.me  
   ### Solusi  
-  Kami menggunakan 
+  Kami menggunakan display filter ```tcp contains "testing.mekanis.me"``` sehingga terdapat tiga paket yang tercapture, kemudian kami mem follow tcp strem dari paket dengan 
+  info "favicon.ico", 
+  ![](image/modul1.png)
+  setelah streamnya terbuka, dapat dilihat bahwa paket ini berasak dari testing.mekanis.ne dan memiliki web server ngin.x seperti yang dapat dilihat di gambar 
+  ![](image/modul2.png)
   ### Kendala  
   Tidak ada.
 </details>  
@@ -53,8 +57,9 @@
   ### Penjelasan Soal  
   Soal meminta kami untuk menemukan paket dari web-web yang menggunakan basic authentication method.
   ### Solusi  
-  Untuk mendapat kan semua paket dari web yang menggunaan basic authentication method, kami menggunakan display filter ```http.authbasic``` yang akan menampilkan semua paket 
-  dengan basic authentication seperti yang dapat dilihat pada gambar berikut, kami mendapatkan 5 paket yang tercapture menggunakan basic authentication
+  Untuk mendapat kan semua paket dari web yang menggunaan basic authentication method, kami menggunakan display filter ```http.authbasic``` namun filter 
+  ```http.authorization``` juda dapat digunakan dan akakan memeberikan hasil yang sama. disini filter akan menampilkan semua paket dengan basic authentication seperti yang 
+  dapat dilihat pada gambar berikut, kami mendapatkan 5 paket yang tercapture menggunakan basic authentication
   ![](image/redmi3.png)  
   ### Kendala
   Tidak ada.  
@@ -66,8 +71,14 @@
   ### Penjelasan Soal  
   Soal meminta kami untuk mengkuti perintah yang ada di ```aku.pengen.pw``` dengan Username dan password yang didapatkan dari file ```.pcapng```
   ### Solusi  
-  Kami menggunakan 
+  Kami menggunakan filter ```tcp contains "aku.pengen.pw"``` yang akan menampilkan paket dengan host aku.pengen.pw, kemudian kami membuka detail dari pakeyt tersebut 
+  ![](image/modul3.png)
+  Pada bagian hypertext transfer protocol -> Authorization, terdapat text credential yang merupakan username dan password yang dibutuhkan pada aku.pengen.pw  
+  ![](image/modul4.png)
+  Setelah dapat mengakses aku.pengen.pw kemudian kami mengikuti intruksi yang ada didalamnya seperti yang dpat dilihat pada gambar berikut
+  ![](image/modul5.png)
   ### Kendala  
+  Tidak ada.
 </details>  
 
 <details>
@@ -79,7 +90,7 @@
   password archive yang sebelumnya harus didapatkan terlebih dahulu 
   pada ```zipkey.txt```
   ### Solusi  
-  Kami menggunakan 
+  Kami menggunakan display filetr ```
   ### Kendala  
 </details>   
 
