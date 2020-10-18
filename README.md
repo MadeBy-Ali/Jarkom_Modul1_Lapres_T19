@@ -145,7 +145,10 @@
   Soal meminta kami untuk mencari username dan password ketika login 
   FTP pada localhost
   ### Solusi  
-  Kami menggunakan 
+  Kami menggunakan display filter ```ftp.request.command == USER || ftp.request.command == PASS``` yang akan menampilkan beberapa paket yang mengandung user dan pass
+  ![](image/modul2000.png)
+  Selanjutnya kami mmefolow tcp stream dari pakey yang terfilter dan username dan password dapat ditemukan
+  ![](image/modul2001.png)
   ### Kendala  
 </details>     
 
