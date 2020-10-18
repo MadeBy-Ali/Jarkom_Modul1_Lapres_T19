@@ -126,7 +126,7 @@
   ### Solusi  
   Pertama-tama kami mendisplay capture untuk mencari objek yang ada di Microsoft FTP service dengan display filter ```ftp contains "Microsoft"```
   ![](image/8A-a.png)
-  Kemudian karena destinasi dan source nya sama kami mempersempit pencarian bertujuan mencari objek yang mengandung RETR) dengan menggunakan display capture        ```ftp.request.command contains "RETR" && ip.dst==198.246.117.106```
+  Kemudian karena destinasi dan source nya sama kami mempersempit pencarian bertujuan mencari objek yang mengandung (RETR) dengan menggunakan display capture        ```ftp.request.command contains "RETR" && ip.dst==198.246.117.106```
   ![](image/8B-b.png)
   ### Kendala
   mboten enten.  
