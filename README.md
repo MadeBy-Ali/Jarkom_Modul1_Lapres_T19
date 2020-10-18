@@ -177,12 +177,10 @@
   ### Penjelasan Soal  
   Soal meminta kami untuk menampilkan sehingga wireshark hanya mengambil paket yang berasal dari port 80
   ### Solusi  
-  Kami melakukan capture filter ke host if.its.ac.id dengan capture filter ```host 103.93.190.11``` dimana 103.93.190.11 merupakan ip if.its.ac.id yang didapat dengan melakukan 
-  ping pada cmd
-  ![](image/redmi7.png)
-  lalu setelah melakukan capture kepada ip tersebut, kami menggunakan display capture ```tcp.srcport == 80 ``` yang berfungsi untuk memfilter semua paket yang berasal dari port 
-  80
-  ![](image/redmi9.png)
+  Kami melakukan capture filter paket yang berasal dari port 80 dengan capture filter ```tcp src port 80``` 
+  ![](image/2B-a.png)
+  Lalu kita menampilkan semua paketnya.
+  ![](image/2B-b.png)
   ### Kendala  
   Tidak ada.  
 </details>  
@@ -193,15 +191,12 @@
   ### Penjelasan Soal  
   Soal meminta kami untuk menampilkan sehingga wireshark hanya menampilkan paket yang menuju port 443
   ### Solusi  
-  Kami melakukan capture ke host niagaholster lagi dengan capture filter```host 104.18.114.100``` dimana 103.18.114.100 merupakan ip dari niaga hoster itu sendiri, yang 
-  didapatkan menggunakan ping dari cmd.
-  ![](image/redmi4.png)    
-  Kemudian menggunakan display capture ```tcp.dstport == 443``` dimana ```tcp.dstport``` akan menampilkan semua paket yang menuju port tertentu, pada case ini kami diminta 
-  untuk mencari semua paket dengan tujuan port 443  
-  ![](image/probs1.png)
+  Kami melakukan capture filter paket yang menuju port 443 dengan capture filter```tcp dst port 443``` 
+  ![](image/3B-a.png)    
+  Kemudian kita menampilkan semua paketnya.
+  ![](image/3B-b.png)
   ### Kendala  
-  terdapat paket yang menuju port 443 seperti yang dapat dilihat di gambar, namun setelah dilakukan display capture, paket tersebut tidak terfilter
-  ![](image/probs2.png)
+  Tidak ada.
 </details>  
 
 <details>
@@ -210,14 +205,14 @@
   ### Penjelasan Soal  
   Soal meminta kami untuk menampilkan sehingga wireshark hanya mengambil paket yang berasal dari ip sendiri.
   ### Solusi  
-  Kami melakukan capture ke host niagaholster lagi dengan capture filter```host 104.18.114.100``` dimana 103.18.114.100 merupakan ip dari niaga hoster itu sendiri, yang 
-  didapatkan menggunakan ping dari cmd.
-  ![](image/redmi4.png)
-  Kemudian menggunakan display filter dengan expression ```ip.src == 192.168.43.233``` dimana ```ip.src``` berfungsi untuk mencari semua package yang berasal dari 
-  ip sendiri, pada case ini kami menenumukan 120 paket dalam refresh page pertama 
-  ![](image/redmi%205.png)
- 
-  ### Kendala  
+  Kami melakukan pengecekan ip lewat command prompat, memasukkan ```ipconfig```
+  ![](image/4B-a.png)
+  Kemudian kami melakukan captur filter paket yang berasal dari ip sendiri dengan capture filter ```ip src host 192.168.0.19```
+  ![](image/4B-b.png)
+  Kemudian kami menampilkan semua paketnya.
+  ![](image/4B-c.png)
+  ### Kendala
+  Tidak ada.  
 </details>  
 
 <details>
@@ -226,13 +221,12 @@
   ### Penjelasan Soal  
   Soal meminta kami untuk menampilkan sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id
   ### Solusi  
-  Kami melakukan capture filter ke host monta.if.its.ac.id dengan capture filter ```host 103.94.190.11``` dimana 103.94.190.11 merupakan ip monta.if.its.ac.id yang didapat 
-  dengan melakukan ping pada cmd  
-  ![](image/redmi12.png)
-  Kemudian kami menggunakan display capture ```ip.dst == 103.94.190.11``` untuk menampilkan semua paket yang menuju ke ip monta.if.its.ac.id
-  ![](image/redmi13.png)
+  Kami melakukan capture filter paket yang menuju monta.if.its.ac.id dengan capture filter ```dst host monta.if.its.ac.id```
+  ![](image/5B-a.png)
+  Kemudian kami menampilkan semua paketnya.
+  ![](image/5B-b.png)
   ### Kendala  
-  Bingung apakah paket dengan tujuan monta.if.its.ac.id sama dengan paket tujuan if.its.ac.id karna ipnya yang sama
+  Tidak ada.
 </details>   
 
 
