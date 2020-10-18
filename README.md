@@ -151,7 +151,7 @@
   Kami memfollow stream dari paket tersebut dan mengekportnya sebagai raw data menjadi .pdf, pada case kali ini kami mengeksportnya sebagai "text.pdf"
   ![](image/modul14.png)
   Berikut merupakan isi dari file pdf yang dimaksud pada soal
-  ![](iamge/modul15.png)
+  ![](image/modul15.png)
   ### Kendala  
   Tidak ada.
 </details>   
