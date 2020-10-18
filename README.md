@@ -146,8 +146,14 @@
   Soal meminta kami untuk mencari dan mendownload file .pdf di 
   wireshark dengan clue ```25 50 44 46```
   ### Solusi  
-  Kami menggunakan 
+  Kami menggunakan filter ```tcp contains 25:50:44:46``` dimana clue yang diberikan merupakan hex value dari sebuah paket, setelah mendapat satu paket yang terfilter
+  ![](image/modul13.png)
+  Kami memfollow stream dari paket tersebut dan mengekportnya sebagai raw data menjadi .pdf, pada case kali ini kami mengeksportnya sebagai "text.pdf"
+  ![](image/modul14.png)
+  Berikut merupakan isi dari file pdf yang dimaksud pada soal
+  ![](iamge/modul15.png)
   ### Kendala  
+  Tidak ada.
 </details>   
 
 <details>
