@@ -120,6 +120,7 @@
   kemudian file dapat terbuka dengan isi sebagai berikut
   ![](image/modul24.png)
   ### Kendala  
+  Tidak ada.
 </details>    
 
 <details>
@@ -171,11 +172,13 @@
   ### Penjelasan Soal  
   Soal meminta kami untuk menampilkan sehingga wireshark hanya mengambil paket yang mengandung port 21
   ### Solusi  
-  Kami melakukan capture filter ke host if.its.ac.id dengan capture filter ```host 103.93.190.11``` dimana 103.93.190.11 merupakan ip if.its.ac.id yang didapat dengan melakukan 
-  ping pada cmd
-  ![](image/redmi7.png)
-  Kemudian kami menggunakan port display capture ```tcp.port == 21``` untuk menampilkan semua paket yang mengandung port 21
-  ![](image/redmi11.png)
+  Pertama kami membuat koneksi fille zilla client dan server dengan xampp
+  ![](image/modul25.png)
+  lalu kami melakukan capture terhadap paket yang berada pada loopback, disini kami menggunakan filter ```port 21``` yang akan menampilkan semua paket pada
+  loopback yang mengandung port 21, dimana port 21 itu sendiri digunakan sebagai ftp local
+  ![](image/modul26.png)
+  ![](image/modul27.png) 
+  
   ### Kendala
   Tidak ada.
 </details>  
