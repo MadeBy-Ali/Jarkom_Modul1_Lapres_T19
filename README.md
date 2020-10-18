@@ -99,6 +99,8 @@
   pada paket pertama kami memfollow tcp streamnya, dan pada stream ke 23 kami menemukan password yang bisa digunakan untuk membuka ```OpenThsi.pdf```
   ![](image/modul10.png)
   ![](image/modul11.png)
+  Isi dari ````OpenThis.pdf``` yang dibuka dengan key "hey997400323051"
+  ![](image/modul12.png)
   
   ### Kendala  
   Tidak ada.
